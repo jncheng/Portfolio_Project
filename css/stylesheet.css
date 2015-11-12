@@ -1,0 +1,120 @@
+body{
+    font-family: 'Roboto Mono', Tahoma, serif;
+    font-weight: 300;
+	padding: 0px;
+	margin: 0px;
+}
+
+div{
+
+}
+
+p{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0.2em;
+
+}
+
+h2{	
+	font-family: inherit;
+	font-size: 2.5em;
+	font-weight: 300;
+}
+
+h3{
+	font-size: 1.6em;
+	font-weight: 100;
+}
+
+h4{
+	font-size: 1.0em;
+	font-weight: 100;
+}
+
+#box1, #box2, #box3{
+	height: 100vh;
+	width: 100%;
+}
+
+#box1{
+/*	background-color: blue;
+*/}
+#box2{
+/*	background-color: red;
+*/}
+#box3{
+/*	background-color: green;
+*/}
+
+.intro{
+	padding-top: 20%;
+	position: relative;
+	height: 100%;
+	width: 100vw;
+	text-align: center;
+
+}
+.work, .about{
+	position: relative;	
+	height: 20%;
+}
+
+.title_p, .title_a{
+	width: 100%
+	bottom: 0px;
+	text-align: center;
+}
+.message{
+	position: relative;
+	display: block;
+	padding: 0px;
+	margin: auto;
+}
+
+.projects, .about_criteria{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.p_luna, .p_getup, .p_hilltrackr, .skills_tech, .things_enjoy, .other_projects{
+	padding: 0px;
+	margin: 0px;
+/*	top: 1em;
+*/	position: relative;
+	display: inline-block;
+	width: 30%;
+	height: 22vw;
+	background-color: gray;
+
+}
+.skills_tech, .things_enjoy, .other_projects{
+	top: 0px;
+	background-color: white;
+}
+
+.space{
+	color: white;
+}
+/*.skills_tech{
+	left: 0px;
+}
+.things_enjoy{
+	left: 33%;
+}
+.other_projects{
+	left: 66%;
+}*/
+.p_name{
+	padding: 0px;
+	margin: 0px;
+	margin-top: -2em;
+
+/*	position: absolute;
+	top: -5vw;
+*/}
+.a_name{
+		padding: 0px;
+	margin: 0px;
+}

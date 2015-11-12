@@ -1,0 +1,253 @@
+div {
+    
+
+}
+
+.rock{
+    position: absolute;
+    background-color: gray;
+    width: 10vw;
+    height: 2vw;
+    left: 62%;
+    top: 18.9vw;
+    border-radius: 5vw 5vw 0em 0em;
+}
+
+.tire_f, .tire_b{
+
+
+/*    margin: 2em;
+*/   
+    width: 6vw;
+    height: 6vw;
+    /*-webkit-animation-name: spin;
+    -webkit-animation-duration: 400ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;*/
+
+    position: absolute;
+
+    background-image: url("tiresmall.png");
+    background-size: 100% 100%;
+
+
+
+
+
+}
+
+.jeep{
+    position: absolute;
+    width: 21vw;
+    height:12vw;
+
+    
+    animation-name: movement;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    -webkit-animation-name: movement;
+    -webkit-animation-duration: 6000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: movement;
+    -moz-animation-duration: 6000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: movement;
+    -ms-animation-duration: 6000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+
+
+    background-image: url("jeepanimation.png");
+    background-size: 100% 100%;
+
+    top: 9vw;
+/*    margin-left: 1.8em;
+*/}
+
+.tire_b{
+    top: 15vw;
+    margin-left: 13vw;
+
+    animation-name: back_tire;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+/*    right: 8em;
+*/}
+.tire_f{
+    top: 15vw;
+    margin-left: 1vw;
+    animation-name: front_tire;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+/*    right: 8em;
+*/}
+
+/* Chrome, Safari, Opera */
+
+
+/*@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}*/
+
+@keyframes movement {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+
+    32%{
+        top: 9vw;
+        transform: rotate(0deg);
+    }
+
+    37%{
+        top: 7vw;
+        transform: rotate(10deg);
+
+    }
+    45%{
+        top: 7vw;
+        transform: rotate(0deg);
+    }
+
+    50%{
+        top: 7vw;
+        transform: rotate(-10deg);
+
+    }
+    55%{
+        top: 9vw;
+        transform: rotate(0deg);
+    }
+
+
+
+
+}
+
+@-ms-keyframes movement {
+    from { -ms-transform: left: 100%; }
+    to { -ms-transform: right: 0%; }
+}
+@-moz-keyframes movement {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes movement {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@keyframes front_tire {
+
+    from {
+        transform:rotate(720deg);
+        left: 100%;
+    }
+    to {
+        transform:rotate(0deg);
+        left: 0%;
+    }
+    29%{
+        top: 15vw;
+    }
+
+    34%{
+        top: 13vw;
+    }
+
+    40%{
+        top: 13vw;
+
+    }
+    40%{
+        top: 13vw;
+    }
+
+    44%{
+        top: 15vw;
+
+    }
+    55%{
+        top: 15vw;
+    }
+}
+@keyframes back_tire {
+
+    from {
+        transform:rotate(720deg);
+        left: 100%;
+    }
+    to {
+        transform:rotate(0deg);
+        left: 0%;
+    }
+    30%{
+        top: 15vw;
+    }
+
+    41%{
+        top: 15vw;
+    }
+
+    45%{
+        top: 13vw;
+
+    }
+
+
+    52%{
+        top: 13vw;
+
+    }
+    56%{
+        top: 15vw;
+    }
+}
+
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(720deg);
+        left: 100%;
+    }
+    to {
+        transform:rotate(0deg);
+        left: 0%;
+    }
+   
+}
