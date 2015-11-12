@@ -143,6 +143,15 @@ div {
         transform: rotate(0deg);
     }
 
+    57%{
+        top: 9vw;
+        transform: rotate(7deg); 
+    }
+
+    62%{
+        transform: rotate(0deg);
+    }
+
 
 
 
@@ -153,17 +162,17 @@ div {
     to { -ms-transform: right: 0%; }
 }
 @-moz-keyframes movement {
-    from { -moz-transform: rotate(360deg); }
+    from { -moz-transform: rotate(800deg); }
     to { -moz-transform: rotate(0deg); }
 }
 @-webkit-keyframes movement {
-    from { -webkit-transform: rotate(360deg); }
+    from { -webkit-transform: rotate(800deg); }
     to { -webkit-transform: rotate(0deg); }
 }
 @keyframes front_tire {
 
     from {
-        transform:rotate(720deg);
+        transform:rotate(800deg);
         left: 100%;
     }
     to {
@@ -197,7 +206,7 @@ div {
 @keyframes back_tire {
 
     from {
-        transform:rotate(720deg);
+        transform:rotate(800deg);
         left: 100%;
     }
     to {
@@ -229,20 +238,20 @@ div {
 
 
 @-ms-keyframes spin {
-    from { -ms-transform: rotate(360deg); }
+    from { -ms-transform: rotate(800deg); }
     to { -ms-transform: rotate(0deg); }
 }
 @-moz-keyframes spin {
-    from { -moz-transform: rotate(360deg); }
+    from { -moz-transform: rotate(800deg); }
     to { -moz-transform: rotate(0deg); }
 }
 @-webkit-keyframes spin {
-    from { -webkit-transform: rotate(360deg); }
+    from { -webkit-transform: rotate(800deg); }
     to { -webkit-transform: rotate(0deg); }
 }
 @keyframes spin {
     from {
-        transform:rotate(720deg);
+        transform:rotate(800deg);
         left: 100%;
     }
     to {
