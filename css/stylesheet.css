@@ -120,6 +120,29 @@ a:hover{
 	left: 45vw;
 	background-color: green;
 }
+.boxTop{
+	width: 100%;
+	height: 100vh;
+}
+.col-1-top, .col-2-top{
+	position: relative;
+	display: inline-block;
+	margin: 0px;	
+	vertical-align: top;
+}
+.col-1-top{
+	height: 80%;
+	margin-left: 15%;
+	margin-top: 28vh;
+}
+.col-2-top{
+	margin-top: 40vh;
+}
+.project_title, .project_description{
+	margin: 0px;
+	padding: 0px;
+}
+
 .box1, .box2, .box3, .box4, .footer{
 	width: 100%;
 }
@@ -139,13 +162,14 @@ a:hover{
 .box4{
 	text-align: center;
 	margin-top: 10vh;
+	margin-bottom: 20vh;
 }
 .footer{
 	margin: 3em 0px 0px 0px;
 	margin-top: 10vh;
 }
 .intro{
-	padding-top: 20%;
+	padding-top: 40vh;
 	position: relative;
 	height: 100%;
 	width: 100vw;
@@ -234,8 +258,46 @@ a:hover{
 	margin-left: 10vw;
 
 }
+.muna_image2, .muna_image4{
+	height: 25vw;
+	width: 45vw;
+	background-repeat: no-repeat;
+	margin-top: 30vh;
+
+}
+.muna_image2{
+	background-image: url("images/muna/render1.JPG");
+	background-size: 100% 100%;
+
+}
+.muna_image4{
+	background-image: url("images/muna/side.PNG");
+	background-size: 100% 100%;
+
+}
+.muna_image3{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height: 40vw;
+	width: 22vw;
+	top: 25vh;
+    background-image: url("images/muna/open_close.gif");
+    background-size: 100% 100%;
+
+/*    background-size: 45vw 22vw;
+*/    
+}
+.gu_image1, .gu_image2, .gu_image4{
+	padding: 0px;
+	margin: 0px;
+	top: 20vh;
+	left: 10vw;
+	position: relative;
+}
 
 .gu_image1{
+	top: 15vh;
 	height: 40vw;
 	width: 20vw;
 
@@ -255,15 +317,23 @@ a:hover{
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
 }
-.gu_image3{
-	margin-top: 10vh;
+.gu_image3, .gu_image5{
 	height: 40vw;
 	width: 20vw;
-    background-image: url("images/getup/getupSolving.png");
     background-size: 100% 100%;
    	padding-right: 0px;
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	top: 20vh;
+	position: relative;
+}
+.gu_image3{
+    background-image: url("images/getup/getupSolving.png");
+}
+.gu_image5{
+	background-image: url("images/getup/getupSet.png");
 }
 .gu_image4{
 	height: 40vw;
@@ -379,7 +449,7 @@ a:hover{
 
 /* ------------------ Project Page --------------------*/
 
-.col-2-1-2, .col-2-2-2, .col-2-2-2-gu, .col-2-2-2-r, .col-2-1-2-header{
+.col-2-1-2, .col-2-2-2, .col-2-2-2-less, .col-2-2-2-gu, .col-2-2-2-r, .col-2-1-2-header{
 	position: relative;
 	display: inline-block;
 	height: 100%;
@@ -409,8 +479,12 @@ a:hover{
 .col-2-2-2{
 	width: 37vw;
 	left: 8vw;
-
-
+}
+.col-2-2-2-less{
+	margin-top: 0px;
+	top: 0px;
+	widtt: 37vw;
+	left: 8vw;
 }
 .col-2-2-2-r{
 	margin-left: 4vw;
@@ -448,17 +522,21 @@ a:hover{
 	top: 0px;
 }
 
-.h_image, .ms_image, .pm_image, .ss_image, .m_header{
+.h_image, .ms_image, .pm_image, .ss_image{
 	width: 45vw;
-	height: 100%;
-	margin-top: 15vw;
+	height: 50vh;
+	margin-top: 30vh;
 
     background-size: 45vw 22vw;
     background-repeat: no-repeat;
 }
+
 .m_header{
-	margin-top: 0px;
-}
+	width: 45vw;
+	height: 30vw;
+
+/*	margin-top: 15vw;
+*/}
 
 .h_image{
 	background-image: url("images/mainscreen.png");
@@ -480,29 +558,39 @@ a:hover{
 	margin: 0px;
 	padding: 0px;
 }
+/*.pr_title, .pr_description{
+	position: relative;
+	display: inline-block;
 
-.pr_title, .pr_description, .ht_content1, .ht_content2, .ht_content3, .pr_text, .pr_feature1{
-	position: absolute;
-	top: 22vw;
+}*/
+
+ .pr_title, .pr_description, .ht_content1, .ht_content2, .ht_content3, .ht_content4, .pr_text, .pr_feature1, .pr_text2{
+ 	position: absolute;
+	top: 35vh;
 	margin-top: 0px;
 }
-
+.ht_content4{
+	top: 25vh;
+}
+.pr_text2{
+	top: 33vh;
+}
 .pr_title{
-	top: 22wv;
+	top: 35vh;
 	margin-left: 1vw;
 
 }
 .pr_description{
-	top: 27vw;
+	top: 43vh;
 	margin-left: 1vw;
 
 }
 .pr_text{
-	top: 22vw;
+	top: 42vh;
 }
 
 .ht_content1, .ht_content2, .ht_content3{
-	top: 18vw;
+	top: 35vh;
 }
 
 .pr_feature1{
@@ -554,6 +642,10 @@ a:hover{
 }
 .footer1{
 	margin-left: 4.5vw;
+}
+
+@media(max-width: 875px){
+	
 }
 
 /* cyrillic-ext */
