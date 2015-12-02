@@ -6,28 +6,76 @@
     <meta charset="utf-8">
     <title>Josh Cheng</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300' rel='stylesheet' type='text/css'>
+<!--     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/animation.css">
+
+    <!---<script type="text/javascript" src="js/scroll.js"></script>-->
+
 
   </head>
 
 
 
-  <body>
+  <body onload="wordSwap()">
 
-    <div id="box1">
+    <div class="box1">
       <div class="intro">
-        <h2 class="message">
-          I like making things 
+        <div class="m_part1">
+           <h2 class="message">
+          I like making
         </h2>
+        </div>
+        <div class="cycle1">
+          <h2 class="introadjective">
+            Fun
+          </h2>
+        </div>
+        <div class="cycle2">
+          <h2 class="introadjective">
+            Cool
+          </h2>
+        </div>
+        <div class="cycle3">
+          <h2 class="introadjective">
+            Neat
+          </h2>
+        </div>
+        <div class="cycle4">
+          <h2 class="introadjective">
+            Exciting
+          </h2>
+        </div>
+        <div class="cycle5">
+          <h2 class="introadjective">
+            Handy
+          </h2>
+        </div>
+        <div class="m_part2">
+          <h2 class="message">
+            projects
+          </h2>
+        </div>
+       <!--  <h2 class="message">
+          I like making <strong class="invisible">exciting</strong> projects
+        </h2> -->
+        <!-- <p class="demo">a</p> 
 
-        <h4 class="name">
+        <script> 
+          function wordSwap();
+        </script>
+        -->
+
+        <p class="name">
           Josh Cheng - Web and Product Designer
-        </h4>
+        </p>
+ 
+
       </div>
+
       
     </div>    
-    <div id="box2">
+    <div class="box3">
       <div class="work">
 
         <h3 class="title_p">
@@ -35,55 +83,74 @@
         </h3>
       </div>
       <div class="projects">
-        <div class="p_luna">
+         <a href="portfolio_project_muna.html"><div class="p_muna">
           <h4 class="p_name">
-            Luna - The interactive egg
-          </h4>
-
-          
-        </div>
-        <div class="p_getup">
-          <h4 class="p_name">
-            GetUp - A math based alarm clock
+            Muna 
           </h4>
         </div>
-
-        <div class="p_hilltrackr">
+        </a>
+         <a href="portfolio_project_getup.html"><div class="p_getup">
           <h4 class="p_name">
-            Hill Trackr - A hill plotting web app
+            GetUp 
           </h4>
         </div>
+        </a>
 
+        <a href="portfolio_project.html"><div class="p_hilltrackr">
+          <h4 class="p_name">
+            Hill Trackr
+          </h4>
+        </div></a>
+
+        <div class="p_phrase">
+          <p>
+            The interactive egg
+          </p>
+        </div>
+
+        <div class="p_phrase">
+          <p>
+            A math based alarm clock
+          </p>
+        </div>
+
+        <div class="p_phrase">
+          <p>
+            A hill plotting web app
+          </p>
+        </div>
+      
       </div>
-
     </div>
-    <div id="box3">
-      <div class="about">
 
+    <div class="box2">
+      <div class="about">
         <h3 class="title_a">
           About me
         </h3>
+        <p class="p_about">
+          I'm a student at Simon Fraser University studying at the School of Interactive Arts and Technology. My focus is on Product design and User Experience, but that hasn't stopped me from learning both Design and Programming skills. With a background in Business at Vancouver Island University, I have a tendency to make realistic products. However I'm also known to think "outside of the box" to make stuff work.
+        </p>
       </div>
-      <div class="about_criteria">
-        <div class="skills_tech">
+
+        <div class="footer1">
           <h4 class="a_name">
             Coding Skills
           </h4>
-          
           <p>HTML5</p>
           <p>CSS</p>
           <p>JavaScript</p>
+          <p>SASS</p>
           <p>Php</p>
           <p>Java</p>
-          <p class="space">space</p>
 
         </div>
-        <div class="things_enjoy">
+        
+        <div class="footer2">
           <h4 class="a_name">
             Programs I use
           </h4>
-
-          <p>Github</p>
+          <p><a href="https://github.com/jncheng" target="_blank">Github</a></p>
           <p>Azure</p>
           <p>Photoshop</p>
           <p>Illustrator</p>
@@ -91,12 +158,12 @@
           <p>Solidworks</p>
         </div>
 
-        <div class="other_projects">
+        <div class="footer3">
           <h4 class="a_name">
             Other Projects
           </h4>
-          <p>Tweet for Treat</p>
-          <p>Spacetime</p>
+          <p><a href="http://treatfortweet.com/" target="_blank">Tweet for Treat</a></p>
+          <p><a href="http://www.sfu.ca/~jncheng/iat339/Spacetime/" target="_blank">Spacetime</a></p>
           <p>space</p>
           <p>space</p>
           <p>space</p>
@@ -104,6 +171,38 @@
         </div>
 
       </div>
+
+    <div class="footer">
+      <div >
+        <div class="footer1">
+          <p>
+            Contact
+          </p>
+          <p>
+            jncheng@sfu.ca
+          </p>
+          <p>
+            604-862-5330
+          </p>
+
+        </div>
+        <div class="footer2">
+          <p>
+            Programs I use
+          </p>
+
+
+        </div>
+
+        <div class="footer3">
+          <p>
+            Social Media          
+          </p>
+
+          </div>
+      </div>
+
     </div>
+
   </body>
 </html>

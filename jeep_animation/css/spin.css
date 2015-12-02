@@ -145,10 +145,10 @@ div {
 
     57%{
         top: 9vw;
-        transform: rotate(7deg); 
+        transform: rotate(5deg); 
     }
 
-    62%{
+    63%{
         transform: rotate(0deg);
     }
 
