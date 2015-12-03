@@ -457,6 +457,10 @@ a:hover{
 	height: 100%;
 
 }
+.iframevid{
+	width: 43vw;
+	height: 30vw;
+}
 .ht_left{
 	margin-left: 5vw;
 }
@@ -682,8 +686,16 @@ a:hover{
 		padding: 0px;
 		top: 0px;
 	}
+	.iframevid{
+		width: 80vw;
+		height: 60vw;
+	}
 	body{
 		text-align: center;
+	}
+	.col-1-top, .m_header{
+		width: 80vw;
+		height: auto;
 	}
 	.box1, .box2, .box3, .box4{
 		height: auto;
