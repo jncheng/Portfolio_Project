@@ -5,7 +5,6 @@ body{
 	margin: 0px;
 }
 div{
-
 }
 p{
 	padding: 0px;
@@ -35,7 +34,6 @@ a{
 	width: 60%;
 	left: 20%;
 	position: relative;
-
 }
 a:hover{
 	color: #FFA343;
@@ -58,7 +56,6 @@ a:hover{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }*/
-
 .back_h, .muna_b, .ht_b, .gu_b{
 	position: relative;
 	display: inline-block;
@@ -120,12 +117,34 @@ a:hover{
 	left: 45vw;
 	background-color: green;
 }
+.boxTop{
+	width: 100%;
+	height: 100vh;
+}
+.col-1-top, .col-2-top{
+	position: relative;
+	display: inline-block;
+	margin: 0px;	
+	vertical-align: top;
+}
+.col-1-top{
+	height: 80%;
+	margin-left: 15%;
+	margin-top: 28vh;
+}
+.col-2-top{
+	margin-top: 40vh;
+}
+.project_title, .project_description{
+	margin: 0px;
+	padding: 0px;
+}
+
 .box1, .box2, .box3, .box4, .footer{
 	width: 100%;
 }
 .box1{
 		height: 100vh;
-
 /*	background-color: blue;
 */}
 .box2{
@@ -139,31 +158,28 @@ a:hover{
 .box4{
 	text-align: center;
 	margin-top: 10vh;
+	margin-bottom: 20vh;
 }
 .footer{
 	margin: 3em 0px 0px 0px;
 	margin-top: 10vh;
 }
 .intro{
-	padding-top: 20%;
+	padding-top: 40vh;
 	position: relative;
 	height: 100%;
 	width: 100vw;
 	text-align: center;
-
 }
 .work{
 	position: relative;	
 	height: 20%;
 }
-
 .about{
 	padding-top: 5vh;
 	position: relative;	
-
 /*	border: 1px solid black;
 */}
-
 .title_p, .title_a{
 	width: 100%
 	bottom: 0px;
@@ -175,13 +191,11 @@ a:hover{
 	padding: 0px;
 	margin: auto;
 }
-
 .projects, .about_criteria{
 	position: relative;
 	width: 100%;
 	text-align: center;
 }
-
 .p_muna, .p_getup, .p_hilltrackr, .skills_tech, .things_enjoy, .other_projects, .p_phrase{
 	padding: 0px;
 	margin: 0px;
@@ -191,93 +205,117 @@ a:hover{
 	width: 30vw;
 /*	height: 22vw;
 */	background-color: gray;
-
 }
 .p_hilltrackr{
 	background-color: white;
-
 	height: 15vw;
     background-image: url("images/hilltrackr/hilltrackr0.png");
     background-size: 100% 100%;
-
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
 }
 .p_getup{
 	background-color: white;
-
 	height: 20vw;
     background-image: url("images/getup/getupHome.png");
     background-size: 35% 100%;
     background-position: center;
-
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
 }
 .p_muna{
 	background-color: white;
-
 	height: 15vw;
     background-image: url("images/muna/render1.JPG");
     background-size: 150% 150%;
     background-position: 90% 10%;
-
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
-
-
-
 }
-
 .gu_image1, .gu_image2, .gu_image4{
 	margin-top: 10vh;
 	margin-left: 10vw;
-
 }
-
+.muna_image2, .muna_image4{
+	height: 25vw;
+	width: 45vw;
+	background-repeat: no-repeat;
+	margin-top: 30vh;
+}
+.muna_image2{
+	background-image: url("images/muna/render1.JPG");
+	background-size: 100% 100%;
+}
+.muna_image4{
+	background-image: url("images/muna/side.PNG");
+	background-size: 100% 100%;
+}
+.muna_image3{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height: 40vw;
+	width: 22vw;
+	top: 25vh;
+    background-image: url("images/muna/open_close.gif");
+    background-size: 100% 100%;
+/*    background-size: 45vw 22vw;
+*/    
+}
+.gu_image1, .gu_image2, .gu_image4{
+	padding: 0px;
+	margin: 0px;
+	top: 20vh;
+	left: 10vw;
+	position: relative;
+}
 .gu_image1{
+	top: 15vh;
 	height: 40vw;
 	width: 20vw;
 
     background-image: url("images/getup/getupHome.png");
     background-size: 100% 100%;
-
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
 }
-
 .gu_image2{
 	height: 40vw;
 	width: 20vw;
     background-image: url("images/getup/getupMath.png");
     background-size: 100% 100%;
-
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
 }
-.gu_image3{
-	margin-top: 10vh;
+.gu_image3, .gu_image5{
 	height: 40vw;
 	width: 20vw;
-    background-image: url("images/getup/getupSolving.png");
     background-size: 100% 100%;
    	padding-right: 0px;
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	top: 20vh;
+	position: relative;
+}
+.gu_image3{
+    background-image: url("images/getup/getupSolving.png");
+}
+.gu_image5{
+	background-image: url("images/getup/getupSet.png");
 }
 .gu_image4{
 	height: 40vw;
 	width: 20vw;
     background-image: url("images/getup/getupSolved.png");
     background-size: 100% 100%;
-
 /*    background-size: 45vw 22vw;
 */    background-repeat: no-repeat;
 }
 .narrow{
 	width: 10vw;
 }
-
 .p_muna, .p_getup, .p_hilltrackr{
 	-o-transition:1.0s;
   -ms-transition:1.0s;
@@ -286,34 +324,23 @@ a:hover{
   /* ...and now for the proper property */
   transition:1.0s;
 }
-
-
 .p_muna:hover{
 	background-image: url("images/muna/renderopen.JPG");
 	background-position: 90% 20%;
-
 }
-
 .p_getup:hover{
 	background-image: url("images/getup/getupMath.png");
-
 }
-
 .p_hilltrackr:hover{
 	background-image: url("images/hilltrackr/hillTrackr35.png");
-
 }
-
-
 .skills_tech, .things_enjoy, .other_projects, .p_phrase{
 	top: 0px;
 	background-color: white;
 }
-
 .p_phrase{
 	margin-top: 1em;	
 }
-
 .space{
 	color: white;
 }
@@ -330,11 +357,9 @@ a:hover{
 	padding: 0px;
 	margin: 0px;
 	margin-top: -2em;
-
 /*	position: absolute;
 	top: -5vw;
 */}
-
 .p_about{
 	margin: 3% 30% ;
 }
@@ -342,12 +367,10 @@ a:hover{
 	padding: 0px;
 	margin: 0px;
 }
-
 .styleguide{
 	width: 100vw;
 	text-align: center;
 }
-
 .sg_column{
 	padding: 0px;
 	margin: 0px;
@@ -355,7 +378,6 @@ a:hover{
 	display: inline-block;
 	width: 30%;
 }
-
 .p_button{
 	color: white;
 	background-color: #FFA343;
@@ -370,20 +392,22 @@ a:hover{
 	padding: 0.3em 1em 0.5em 1em;
 	border-radius: 0.5em;
 }
-
 .p_alignleft{
 	text-align: left;
 	margin-top: 1.5em;
 }
-
-
 /* ------------------ Project Page --------------------*/
 
-.col-2-1-2, .col-2-2-2, .col-2-2-2-gu, .col-2-2-2-r, .col-2-1-2-header{
+/*@media(min-width: 876px){
+*/
+.col-2-1-2, .col-2-2-2, .col-2-2-2-less, .col-2-2-2-gu, .col-2-2-2-r, .col-2-1-2-header{
 	position: relative;
 	display: inline-block;
 	height: 100%;
-
+}
+.iframevid{
+	width: 43vw;
+	height: 30vw;
 }
 .ht_left{
 	margin-left: 5vw;
@@ -391,7 +415,6 @@ a:hover{
 .col-2-1-2{
 	width: 45vw;
 	left: 13vw;
-
 }
 .col-2-1-2-header{
 	width: 30vw;
@@ -409,8 +432,12 @@ a:hover{
 .col-2-2-2{
 	width: 37vw;
 	left: 8vw;
-
-
+}
+.col-2-2-2-less{
+	margin-top: 0px;
+	top: 0px;
+	width: 37vw;
+	left: 8vw;
 }
 .col-2-2-2-r{
 	margin-left: 4vw;
@@ -420,10 +447,7 @@ a:hover{
 	width: 26vw;
 	left: 17vw;
 	margin-right: 0vw;
-
-
 }
-
 .col-1-1-3, .col-1-2-3, .col-1-3-3, .col-1-1-1{
 	top: 0vw;
 	position: relative;
@@ -432,119 +456,102 @@ a:hover{
 *//*	left: 13vw;
 */	width: 30vw;
 	padding-left: 0vw;
-
-
 }
-
 .col-1-1-1{
 	position: relative;
 	top: 8vw;
 	padding: 0px 20vw;
 	width: 60vw;
 	text-align: center;
-
 }
 .noTop{
 	top: 0px;
 }
-
-.h_image, .ms_image, .pm_image, .ss_image, .m_header{
+/*}*/
+.h_image, .ms_image, .pm_image, .ss_image{
 	width: 45vw;
-	height: 100%;
-	margin-top: 15vw;
-
+	height: 50vh;
+	margin-top: 30vh;
     background-size: 45vw 22vw;
     background-repeat: no-repeat;
 }
 .m_header{
-	margin-top: 0px;
-}
-
+	width: 45vw;
+	height: 30vw;
+/*	margin-top: 15vw;
+*/}
 .h_image{
 	background-image: url("images/mainscreen.png");
 }
-
 .ms_image{
 	background-image: url("images/setscreen.png");
 }
-
 .pm_image{
 	background-image: url("images/palcemarker.png");
 }
-
 .ss_image{
 	background-image: url("images/setscreen.png");
 }
-
 .p_titletext{
 	margin: 0px;
 	padding: 0px;
 }
-
-.pr_title, .pr_description, .ht_content1, .ht_content2, .ht_content3, .pr_text, .pr_feature1{
-	position: absolute;
-	top: 22vw;
+/*.pr_title, .pr_description{
+	position: relative;
+	display: inline-block;
+}*/
+.pr_title, .pr_description, .ht_content1, .ht_content2, .ht_content3, .ht_content4, .pr_text, .pr_feature1, .pr_text2{
+ 	position: absolute;
+	top: 35vh;
 	margin-top: 0px;
 }
-
+.ht_content4{
+	top: 25vh;
+}
+.pr_text2{
+	top: 33vh;
+}
 .pr_title{
-	top: 22wv;
+	top: 35vh;
 	margin-left: 1vw;
-
 }
 .pr_description{
-	top: 27vw;
+	top: 43vh;
 	margin-left: 1vw;
-
 }
 .pr_text{
-	top: 22vw;
+	top: 42vh;
 }
-
 .ht_content1, .ht_content2, .ht_content3{
-	top: 18vw;
+	top: 35vh;
 }
-
 .pr_feature1{
 	top: 14vw;
 	left: 6vw;
 	width: 25vw;
 }
-
 .h3_center{
 	text-align: center;
 	width: 100%;
 }
-
 .ht_technicals{
 	width: 100%;
 }
-
 .ht_content1{
-
 }
-
 .ht_content2{
-
 }
-
 .ht_content3{
 	text-align: center;
 	width: 100%;
 }
-
 .m_video{
-
 }
-
-
 /* ------------- Footer ----------------*/
-
 .footer{
 	background-color: #d6dbe0;
 	padding: 1em 0em ;
 }
-
 .footer1, .footer2, .footer3{
 	vertical-align: top;
 	position: relative;
@@ -555,7 +562,125 @@ a:hover{
 .footer1{
 	margin-left: 4.5vw;
 }
+@media(max-width: 875px){
+	.intro, .p_phrase, .footer1, .footer2, .footer3{
+		margin: 0px;
+		padding: 0px;
+		width: 80vw;
+	}
+	.footer1, .footer2, .footer3{
+		margin-top: 40px;
+	}
+	.p_muna, .p_hilltrackr{
+		width: 80vw;
+		height: 40vw;
+		margin-top: 40px;
+	}
+	.p_getup{
+		height: 80vw;
+		width: 40vw;
+		background-size: 100% 100%;
+	}
+	.project_title, .project_description{
+		display: inline-block;
+		left: 0px;
+		top: 0px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.col-1-top, .col-2-top{
+		position: relative;
+		display: inline-block;
+		margin: 0px;	
+		left: 0px;
+		margin: 0px;
+		padding: 0px;
+		top: 0px;
+	}
+	.iframevid{
+		width: 80vw;
+		height: 60vw;
+	}
+	body{
+		text-align: center;
+	}
+	.col-1-top, .m_header{
+		width: 80vw;
+		height: auto;
+	}
+	.box1, .box2, .box3, .box4{
+		height: auto;
+		margin: 10%;
+		width: auto
+	}
+	.col-2-1-2, .col-2-2-2, .col-2-2-2-less, .col-2-2-2-gu, .col-2-2-2-r, .col-2-1-2-header, .col-1-1-1, .col-1-1-3, .col-1-2-3, .col-1-3-3{
+		position: relative;
+		display: inline;
+		height: auto;
+		width: auto;
+		margin: 0px;
+		padding: 0px;
+		left: 0px;
+		top: 0px;
+	}
+	.pr_title, .pr_description, .ht_content1, .ht_content2, .ht_content3, .ht_content4, .pr_text, .pr_text2{
+		position: relative;
+		display: inline-block;
+		width: 80vw;
+		left: 0px;
+		margin: 0px;
+		padding: 0px;
+		top: 0px;
+		margin-top: 10px;
+	}
+	.ht_content1, .pr_text{
+		display: inline-block;
+		width: 80%;
+		margin-left: 5%;
+	}
+	.pr_feature1{
+	 	position: relative;
+	 	display: inline;
+	 	left: 0px;
+		margin: 0px;
+		padding: 0px;
+		top: 0px;
+		width: 80vw;
+	}
+	.muna_image2, .muna_image3, .muna_image4{
+		top: 0px;
+		margin: 0px;
+		left: 0px;
+		padding: 0px;
+	}
+	.muna_image2, .muna_image4{
+		height: 40vw;
+		width: 80vw;
+	}
+	.muna_image3{
+		margin: auto;
+	}
+	.h_image, .ms_image, .pm_image, .ss_image{
 
+		top: 0px;
+		margin: 0px;
+		padding: 0px;
+		left: 0px;
+		height: 40vw;
+		width: 80vw;
+		background-size: 100% 100%;
+		margin-top: 10px;
+	}
+	.gu_image1, .gu_image2, .gu_image3, .gu_image4, .gu_image5{
+		top: 0px;
+		left: 0px;
+		margin: auto;
+		padding: 0px;
+	}
+	.back{
+		text-align: left;
+	}
+}
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto Mono';
