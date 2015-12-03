@@ -105,13 +105,11 @@
 @-webkit-keyframes cycleOneAnimate {
     from {
         opacity: 0;
-        top: 200px;
     }
     to {
 /*        top: 20vw;
 
 */        opacity: 0;
-        top: 100px;
     }
  /*   1%{
         position: absolute;
