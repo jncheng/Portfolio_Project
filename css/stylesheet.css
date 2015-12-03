@@ -449,6 +449,8 @@ a:hover{
 
 /* ------------------ Project Page --------------------*/
 
+/*@media(min-width: 876px){
+*/
 .col-2-1-2, .col-2-2-2, .col-2-2-2-less, .col-2-2-2-gu, .col-2-2-2-r, .col-2-1-2-header{
 	position: relative;
 	display: inline-block;
@@ -521,7 +523,7 @@ a:hover{
 .noTop{
 	top: 0px;
 }
-
+/*}*/
 .h_image, .ms_image, .pm_image, .ss_image{
 	width: 45vw;
 	height: 50vh;
@@ -564,7 +566,7 @@ a:hover{
 
 }*/
 
- .pr_title, .pr_description, .ht_content1, .ht_content2, .ht_content3, .ht_content4, .pr_text, .pr_feature1, .pr_text2{
+.pr_title, .pr_description, .ht_content1, .ht_content2, .ht_content3, .ht_content4, .pr_text, .pr_feature1, .pr_text2{
  	position: absolute;
 	top: 35vh;
 	margin-top: 0px;
@@ -644,10 +646,118 @@ a:hover{
 	margin-left: 4.5vw;
 }
 
-@media(max-width: 875px){
-	
-}
 
+@media(max-width: 875px){
+	.intro, .p_phrase, .footer1, .footer2, .footer3{
+		margin: 0px;
+		padding: 0px;
+		width: 80vw;
+	}
+	.footer1, .footer2, .footer3{
+		margin-top: 40px;
+	}
+	.p_muna, .p_hilltrackr{
+		width: 80vw;
+		height: 40vw;
+		margin-top: 40px;
+	}
+	.p_getup{
+		height: 80vw;
+		width: 40vw;
+		background-size: 100% 100%;
+	}
+	.project_title, .project_description{
+		display: inline-block;
+		left: 0px;
+		top: 0px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.col-1-top, .col-2-top{
+		position: relative;
+		display: inline-block;
+		margin: 0px;	
+		left: 0px;
+		margin: 0px;
+		padding: 0px;
+		top: 0px;
+	}
+	body{
+		text-align: center;
+	}
+	.box1, .box2, .box3, .box4{
+		height: auto;
+		margin: 10%;
+		width: auto
+	}
+	.col-2-1-2, .col-2-2-2, .col-2-2-2-less, .col-2-2-2-gu, .col-2-2-2-r, .col-2-1-2-header, .col-1-1-1, .col-1-1-3, .col-1-2-3, .col-1-3-3{
+		position: relative;
+		display: inline;
+		height: auto;
+		width: auto;
+		margin: 0px;
+		padding: 0px;
+		left: 0px;
+		top: 0px;
+	}
+	.pr_title, .pr_description, .ht_content1, .ht_content2, .ht_content3, .ht_content4, .pr_text, .pr_text2{
+		position: relative;
+		display: inline-block;
+		width: 80vw;
+		left: 0px;
+		margin: 0px;
+		padding: 0px;
+		top: 0px;
+		margin-top: 10px;
+	}
+	.ht_content1, .pr_text{
+		display: inline-block;
+		width: 80%;
+		margin-left: 5%;
+	}
+	.pr_feature1{
+	 	position: relative;
+	 	display: inline;
+	 	left: 0px;
+		margin: 0px;
+		padding: 0px;
+		top: 0px;
+		width: 80vw;
+	}
+	.muna_image2, .muna_image3, .muna_image4{
+		top: 0px;
+		margin: 0px;
+		left: 0px;
+		padding: 0px;
+	}
+	.muna_image2, .muna_image4{
+		height: 40vw;
+		width: 80vw;
+	}
+	.muna_image3{
+		margin: auto;
+	}
+	.h_image, .ms_image, .pm_image, .ss_image{
+
+		top: 0px;
+		margin: 0px;
+		padding: 0px;
+		left: 0px;
+		height: 40vw;
+		width: 80vw;
+		background-size: 100% 100%;
+		margin-top: 10px;
+	}
+	.gu_image1, .gu_image2, .gu_image3, .gu_image4, .gu_image5{
+		top: 0px;
+		left: 0px;
+		margin: auto;
+		padding: 0px;
+	}
+	.back{
+		text-align: left;
+	}
+}
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto Mono';
